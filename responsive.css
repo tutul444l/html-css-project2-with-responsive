@@ -1,0 +1,129 @@
+/* @media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container{
+    width: 750px;
+} */
+
+
+/* Normal desktop :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        width: 1200px
+    }
+} */
+
+/* menu respossibe part */
+
+@media only screen and (max-width: 900px) {
+    #menu-icon {
+      display: block;
+      margin-right: 20px;
+    }
+  }
+
+  
+/* meni hidden */
+  @media only screen and (max-width: 900px) {
+    ul li {
+      display: none;
+      padding: 20px 0px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .navbr-brand {
+      padding-top: 20px;
+      /* border: 2px solid gray; */
+      margin-left: 30px;
+      
+    }
+  }
+
+  /* banne */
+
+  @media only screen and (max-width: 900px) {
+    .banner-contant{
+      padding-top: 20px;
+      /* border: 2px solid gray; */
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 70%;
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner-contant{
+      padding-top: 20px;
+      /* border: 2px solid gray; */
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 90%;
+      margin-top: 30px !important;
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner-section{
+      height: 400px;
+     
+      
+    }
+  }
+
+/* brand */
+@media only screen and (max-width: 1350px) {
+  .brand-section{
+  min-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .brand-section{
+  flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 810px) {
+  .brand-section{
+    
+ 
+    
+  }
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .brand-section img{
+    padding: 0 25px;
+    border: 2px solid gray;
+    margin: 5px 5px;
+    height:42px ;
+    width:72px;
+    
+}
+}
+
+/* form */
+
+@media only screen and (max-width: 1637px) {
+  .form{
+    margin-top: 100px;
+  }
+}
+
